@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="384" it="0" lt="384" ct="186" ts="1595845895844" s="false" lb="Requisição HTTP" rc="400" rm="BAD_REQUEST" tn="Usuarios 4-1" dt="" de="" by="66" sby="428" sc="1" ec="1" ng="3" na="6" hn="DESKTOP-IUH7B30">
+  <assertionResult>
+    <name>Asserções de Resposta</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 400 BAD_REQUEST
+Content-Length: 0
+Connection: Close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+: 
+Content-Length: 224
+Host: petstore.swagger.io
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_251)
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">[&#xd;
+  {&#xd;
+    &quot;id&quot;: &quot;10000&quot;,&#xd;
+    &quot;username&quot;: &quot;Aninha&quot;,&#xd;
+    &quot;firstName&quot;: &quot;Ana&quot;,&#xd;
+    &quot;lastName&quot;: &quot;Maia&quot;,&#xd;
+    &quot;email&quot;: &quot;ana@iterasyss.com.br&quot;,&#xd;
+    &quot;password&quot;: &quot;anamaia&quot;,&#xd;
+    &quot;phone&quot;: &quot;25744406&quot;,&#xd;
+    &quot;userStatus&quot;: 0&#xd;
+  }&#xd;
+]</queryString>
+  <java.net.URL>http://petstore.swagger.io/v2/user/createWithArray</java.net.URL>
+</httpSample>
+<httpSample t="384" it="0" lt="384" ct="186" ts="1595845895844" s="false" lb="Requisição HTTP" rc="400" rm="BAD_REQUEST" tn="CadastroAnimais 2-1" dt="" de="" by="66" sby="426" sc="1" ec="1" ng="1" na="6" hn="DESKTOP-IUH7B30">
+  <assertionResult>
+    <name>Asserções de Resposta</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>
+Invalid input</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 400 BAD_REQUEST
+Content-Length: 0
+Connection: Close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: close
+Content-Type: application/json
+: 
+Content-Length: 237
+Host: petstore.swagger.io
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_251)
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">{&#xd;
+  &quot;id&quot;: &quot;500&quot;,&#xd;
+  &quot;category&quot;: {&#xd;
+    &quot;id&quot;: &quot;001&quot;,&#xd;
+    &quot;name&quot;: &quot;dog&quot;&#xd;
+  },&#xd;
+  &quot;name&quot;: &quot;Snoopy&quot;,&#xd;
+  &quot;photoUrls&quot;: [&#xd;
+    &quot;string&quot;&#xd;
+  ],&#xd;
+  &quot;tags&quot;: [&#xd;
+    {&#xd;
+      &quot;id&quot;: 0,&#xd;
+      &quot;name&quot;: &quot;string&quot;&#xd;
+    }&#xd;
+  ],&#xd;
+  &quot;status&quot;: &quot;available&quot;&#xd;
+}</queryString>
+  <java.net.URL>http://petstore.swagger.io/v2/pet/addPet</java.net.URL>
+</httpSample>
+<httpSample t="368" it="0" lt="368" ct="202" ts="1595845896025" s="false" lb="Requisição HTTP" rc="400" rm="BAD_REQUEST" tn="Usuarios 4-2" dt="" de="" by="66" sby="428" sc="1" ec="1" ng="2" na="3" hn="DESKTOP-IUH7B30">
+  <assertionResult>
+    <name>Asserções de Resposta</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 400 BAD_REQUEST
+Content-Length: 0
+Connection: Close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+: 
+Content-Length: 224
+Host: petstore.swagger.io
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_251)
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">[&#xd;
+  {&#xd;
+    &quot;id&quot;: &quot;10000&quot;,&#xd;
+    &quot;username&quot;: &quot;Aninha&quot;,&#xd;
+    &quot;firstName&quot;: &quot;Ana&quot;,&#xd;
+    &quot;lastName&quot;: &quot;Maia&quot;,&#xd;
+    &quot;email&quot;: &quot;ana@iterasyss.com.br&quot;,&#xd;
+    &quot;password&quot;: &quot;anamaia&quot;,&#xd;
+    &quot;phone&quot;: &quot;25744406&quot;,&#xd;
+    &quot;userStatus&quot;: 0&#xd;
+  }&#xd;
+]</queryString>
+  <java.net.URL>http://petstore.swagger.io/v2/user/createWithArray</java.net.URL>
+</httpSample>
+<httpSample t="372" it="0" lt="372" ct="167" ts="1595845896225" s="false" lb="Requisição HTTP" rc="400" rm="BAD_REQUEST" tn="Usuarios 4-3" dt="" de="" by="66" sby="428" sc="1" ec="1" ng="2" na="3" hn="DESKTOP-IUH7B30">
+  <assertionResult>
+    <name>Asserções de Resposta</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 400 BAD_REQUEST
+Content-Length: 0
+Connection: Close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+: 
+Content-Length: 224
+Host: petstore.swagger.io
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_251)
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">[&#xd;
+  {&#xd;
+    &quot;id&quot;: &quot;10000&quot;,&#xd;
+    &quot;username&quot;: &quot;Aninha&quot;,&#xd;
+    &quot;firstName&quot;: &quot;Ana&quot;,&#xd;
+    &quot;lastName&quot;: &quot;Maia&quot;,&#xd;
+    &quot;email&quot;: &quot;ana@iterasyss.com.br&quot;,&#xd;
+    &quot;password&quot;: &quot;anamaia&quot;,&#xd;
+    &quot;phone&quot;: &quot;25744406&quot;,&#xd;
+    &quot;userStatus&quot;: 0&#xd;
+  }&#xd;
+]</queryString>
+  <java.net.URL>http://petstore.swagger.io/v2/user/createWithArray</java.net.URL>
+</httpSample>
+<httpSample t="377" it="0" lt="377" ct="172" ts="1595845896425" s="false" lb="Requisição HTTP" rc="400" rm="BAD_REQUEST" tn="Usuarios 4-4" dt="" de="" by="66" sby="428" sc="1" ec="1" ng="2" na="2" hn="DESKTOP-IUH7B30">
+  <assertionResult>
+    <name>Asserções de Resposta</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 400 BAD_REQUEST
+Content-Length: 0
+Connection: Close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+: 
+Content-Length: 224
+Host: petstore.swagger.io
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_251)
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">[&#xd;
+  {&#xd;
+    &quot;id&quot;: &quot;10000&quot;,&#xd;
+    &quot;username&quot;: &quot;Aninha&quot;,&#xd;
+    &quot;firstName&quot;: &quot;Ana&quot;,&#xd;
+    &quot;lastName&quot;: &quot;Maia&quot;,&#xd;
+    &quot;email&quot;: &quot;ana@iterasyss.com.br&quot;,&#xd;
+    &quot;password&quot;: &quot;anamaia&quot;,&#xd;
+    &quot;phone&quot;: &quot;25744406&quot;,&#xd;
+    &quot;userStatus&quot;: 0&#xd;
+  }&#xd;
+]</queryString>
+  <java.net.URL>http://petstore.swagger.io/v2/user/createWithArray</java.net.URL>
+</httpSample>
+<httpSample t="380" it="0" lt="380" ct="175" ts="1595845896626" s="false" lb="Requisição HTTP" rc="400" rm="BAD_REQUEST" tn="Usuarios 4-5" dt="" de="" by="66" sby="428" sc="1" ec="1" ng="1" na="1" hn="DESKTOP-IUH7B30">
+  <assertionResult>
+    <name>Asserções de Resposta</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <responseHeader class="java.lang.String">HTTP/1.1 400 BAD_REQUEST
+Content-Length: 0
+Connection: Close
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-Type: application/json
+: 
+Content-Length: 224
+Host: petstore.swagger.io
+User-Agent: Apache-HttpClient/4.5.7 (Java/1.8.0_251)
+</requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">[&#xd;
+  {&#xd;
+    &quot;id&quot;: &quot;10000&quot;,&#xd;
+    &quot;username&quot;: &quot;Aninha&quot;,&#xd;
+    &quot;firstName&quot;: &quot;Ana&quot;,&#xd;
+    &quot;lastName&quot;: &quot;Maia&quot;,&#xd;
+    &quot;email&quot;: &quot;ana@iterasyss.com.br&quot;,&#xd;
+    &quot;password&quot;: &quot;anamaia&quot;,&#xd;
+    &quot;phone&quot;: &quot;25744406&quot;,&#xd;
+    &quot;userStatus&quot;: 0&#xd;
+  }&#xd;
+]</queryString>
+  <java.net.URL>http://petstore.swagger.io/v2/user/createWithArray</java.net.URL>
+</httpSample>
+
+</testResults>
