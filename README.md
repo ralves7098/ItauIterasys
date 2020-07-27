@@ -1,2 +1,0 @@
-# ItauIterasys
-Exercicios
